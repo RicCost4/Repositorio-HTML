@@ -1,2 +1,2 @@
 # Repositorio-HTML
- Repositorio para armazenar projetos e codigos referente a HTML e CSS
+ Repositorio para armazenar projetos e codigos referente a HTML e CSS e JS
