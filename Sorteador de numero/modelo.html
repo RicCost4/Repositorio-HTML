@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Curso Udemy JS/ReactJS/ReactNative</title>
+</head>
+<body>
+    <header>
+        <h1>Sorteador de Numero</h1>
+    </header>
+    <section>
+        <div>
+            <button onclick="selecionarOpc1()">Opção 1</button>
+            <button onclick="selecionarOpc2()">Opção 2</button>
+        </div>
+        <div>
+            <div id="opc1">
+                <h4>Opção 1</h4>
+                <label for="inumero">Digite cada numero por vez!!</label>
+                <input type="text" name="addNumero" id="iAddNumero"><br>
+                <input type="button" value="Adicionar" id="add">
+                <input type="button" value="Sortear" id="srt1">
+                <p id="mensagem">
+                    
+                </p>
+            </div>
+            <div id="opc2">
+                <h4>Opção 2</h4>
+                <label for="inumInicial">Digite um numero inicial</label>
+                <input type="text" name="numInicial" id="inumInicial"><br>
+                <label for="inumFinal">Digite um numero final</label>
+                <input type="text" name="numFinal" id="inumFinal"><br>
+                <input type="button" value="Sortear" id="srt2">
+            </div>
+        </div>
+        <p id="retorno">
+
+        </p>
+    </section>
+    <footer>
+        <p>&copy; Richard Artur.</p>
+    </footer>
+    <script type="module" src="sorteador.js"></script>
+    <script src="botao_selecao.js"></script>
+</body>
+</html>
