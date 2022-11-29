@@ -18,7 +18,7 @@ export function sortearO1(l, html) {
     // console.log(l) //retorno console
 
     const numeroGerado = Math.floor(Math.random(l) * l.length)
-    html.innerHTML = `O numero sorteado foi: ${l[numeroGerado]}`
+    html.innerHTML = `O número sorteado foi: ${l[numeroGerado]}`
     // console.log(numeroGerado) //retorno console
 }
 
@@ -37,6 +37,6 @@ export function sortearO2(nInicial, nFinal, html, htmlNumI, htmlNumF) {
         htmlNumI.focus()
 
     }else{
-        html.innerHTML = `Numeros invalido, digite novamente.`
+        html.innerHTML = `Números invalido, digite novamente.`
     }
 }

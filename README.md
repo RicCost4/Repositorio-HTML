@@ -21,3 +21,6 @@
 
 7. **Olá Mundo**;
 	* Primeiro código em JS para quebrar a maldição &#x1F602;
+
+8. **Sorteador de numero**;
+	* Esse projeto foi desenvolvido como desafio meu e uma atividade proposta em estudo com JS, aonde ele mostra duas opções de realizar sorteio, adicionando um número ou adicionando uma lista de um determinado número ate outro número. 
